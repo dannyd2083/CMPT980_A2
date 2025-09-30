@@ -3,6 +3,18 @@ Assignment 2 for CMPT 980 public AI
 
 # Assignment 2: Training Data Influence
 
+## Environment Setup
+
+Follow these steps to set up the environment after cloning the repository:
+
+1. **Create the Conda environment**
+   ```bash
+   conda env create -f environment.yml
+   conda activate a2
+2. **Install Jupyter kernel (first time only)**
+    ```bash
+   python -m ipykernel install --user --name a2 --display-name "Python (a2)"
+   
 ## Overview
 
 Our Module 2 content is focused on understanding the broad question: Which groups of observations – or groups of people – are "responsible" for a given model output or "capability"?
